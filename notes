@@ -1,0 +1,78 @@
+**08/08/202**
+
+Methods in Java :
+1.Method overloading
+2.Method overriding
+
+Types of METHODS in java:
+
+1.Method taking the arguments and returning the values
+2.Method not taking the arguments and not returning the values
+3.Method taking the arguments and not returning the values
+4.Method not taking the arguments and returning the values
+
+
+METHOD OVERLOADING:
+method heading is same and signature is different.
+
+Signature:
+1.type of the arguments
+2.no. of the arguments
+3.order of the arguments
+
+
+METHOD OVERRIDING :
+method heading is same and body is different
+
+public void draw(){spo("tle")}
+public void draw(){spo("rle")}
+
+**09/08/2022**
+
+ACCESS MODIFIERS:
+public : inside the project
+default : within the package
+protected : within the package and outside the package sub classes only
+private : within thw class
+
+PACKAGES IN JAVA :
+types of packages:
+1.predefined(buil-in) packages
+2.custom/user defined packages
+3.third party packages
+
+---------------------------------------------------------------------------------------------|
+Access Modifiers         |   private   |  Default/no-access   |   protected    |      public |
+---------------------------------------------------------------------------------------------|
+Inside class             |     Y       |         Y            |      Y         |       Y     |
+Same Package class       |     N       |         Y            |      Y         |       Y     |
+Same Package Sub-class   |     N       |         Y            |      Y         |       Y     |
+Other package class      |     N       |         N            |      N         |       Y     |
+Other package sub-class  |     N       |         N            |      Y         |       Y     |
+---------------------------------------------------------------------------------------------|
+
+
+API -> package->class->interface -> the collection of packages, classes and interface is called API
+
+API-flow in notes
+
+
+PACKAGES in java :
+java.lang.Object;//default super class for all the classes
+java.lang.*;//default package in java
+java.io.*;//input output
+java.util.*;
+java.net.*;//to connect to network
+java.text.*;//fonts, colors
+java.applet.*;
+java.awt.*;//animations
+
+
+to create own package : "package" is keyword ; example: package com.test; , package com.ibm.sbi.transfer;
+
+=====================================================================================
+QUESTION:
+=====================================================================================
+Create different packages, use access modifies, sahre data from one package to another package use the data(variables or method), only 1 main method with scanner class set the data and display without null or default values.
+
+TRY: updating values from one class to another within same packages scanner
